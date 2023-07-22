@@ -1,0 +1,16 @@
+.navigation {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+  justify-content: center;
+}
+
+.item {
+  all: unset;
+  border: solid black 1px;
+  padding: 4px;
+}
+
+.item:focus {
+  background-color: green;
+}

@@ -1,0 +1,17 @@
+.rating {
+  display: flex;
+  justify-content: center;
+}
+
+.star {
+  all: unset;
+  font-weight: 700;
+  font-size: 48px;
+  padding: 6px;
+
+  cursor: pointer;
+}
+
+.active {
+  color: gold;
+}
